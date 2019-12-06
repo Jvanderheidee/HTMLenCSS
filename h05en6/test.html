@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+
+<div class="wrapper">
+    <img class="burtonlogo" src="../resources/burton_logo.png">
+<form action="https://www.savatarian.com/html5/form.php" method="get">
+    <ul>
+        <li>
+            <span class="verplicht">*verplicht velden</span>
+        </li>
+
+        <li>
+            <label for="voornaam">voornaam:</label>
+            <input type="text" name="voornaam" id="voornaam" />
+        </li>
+        <li>
+            <label for="tussenvoegsels">tussenvoegsels:</label>
+            <input type="text" name="tussenvoegsels" id="tussenvoegsels">
+         </li>
+        <li>
+            <label for="achternaam">achternaam:</label>
+            <input type="text" name="achternaam" id="achternaam"/>
+        </li>
+        <li>
+            <label for="geslacht">geslacht:</label>
+            <div class="geslachtsdivje">
+                <input type="radio" name="geslacht"/>
+                 &nbsp;man
+                <input type="radio" name="geslacht" id="geslacht"/>
+                 &nbsp;vrouw
+            </div>
+        </li>
+        <li>
+            <label>kleur ogen:</label>
+            <select name="kleur-ogen">
+                <option>groen</option>
+                <option>blauw</option>
+                <option>bruin</option>
+            </select>
+        </li>
+        <li>
+            <label>geboortedatum:</label>
+            <input  type="date" name="geboortedatum" />
+        </li>
+        <li>
+            <label>Omschrijving:</label>
+            <textarea name="omschrijving"></textarea>
+        </li>
+        <li>
+            <label for="lekker eten">lekker eten:</label>
+            <div></div>
+            <span class="checkbox">patat</span>
+            <input type="checkbox" name="lekker-eten" value="patat">
+            <span class="checkbox">bruine bonen</span>
+            <input type="checkbox" name="lekker eten" value="bruine bonen">
+            <span class="checkbox">linzen</span>
+            <input type="checkbox" name="lekker eten" value="linzen">
+        </li>
+
+    </ul>
+    <footer>
+        <input class="submit" type="submit" name="knop"/>
+        <a class="terugknop" href="burton.html">terug</a>
+    </footer>
+</form>
+</div>
+</body>
+</html>

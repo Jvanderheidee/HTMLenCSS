@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+}
+img.truemusic {
+    width: 320px;
+}
+div.wrapper {
+    margin: auto;
+     width: 1000px;
+}
+header {
+    background-color: #b0e3d5;
+}
+li {
+    background-color: #838383;
+}
+li a {
+    color: white;
+    border: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}

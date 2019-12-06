@@ -1,0 +1,49 @@
+form ul {
+    list-style-type: none;
+    padding:0;
+}
+form ul li {
+    padding:10px;
+}
+form ul li input{
+   left: 20px;
+}
+div.wrapper {
+    margin: auto;
+    background-color: #fcebeb;
+    width: 600px;
+
+}
+
+li {
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+li input, li select, li textarea {
+    max-width: 200px;
+}
+input.submit {
+    color: #000000;
+    border-color: #000000;
+    margin-left: 240px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bolder;
+}
+body {
+    font-family: Arial ,sans-serif;
+}
+footer {
+    background-color: #838383;
+    height: 100px;
+}
+img.burtonlogo {
+    margin-left: 25px;
+}
+a.terugknop {
+   color: blue;
+    padding-left: 275px;
+    font-weight: bolder;
+}
